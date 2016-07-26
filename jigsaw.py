@@ -6,5 +6,3 @@ for z in range(0,185):
   h=l[i]
   if g[i] in h[i]:
    print "I win" 
- for i in range(z+1,185):
-  print "yay"
