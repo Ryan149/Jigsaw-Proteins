@@ -1,8 +1,7 @@
 f=open('/tmp/assemble','r')
 l=f.readlines()
-for z in range(0,185):
- for i in range(0,z):
-  g=l[z]
-  h=l[i]
-  if g[i] in h[i]:
-   print "I win" 
+for i in range(len(l)):
+ print l[i]
+ g=l[i]
+ for z in range(len(g)):
+  print g[z]
